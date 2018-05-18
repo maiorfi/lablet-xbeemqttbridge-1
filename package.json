@@ -1,0 +1,16 @@
+{
+  "name": "xbee_mqtt_bridge",
+  "version": "1.0.0",
+  "description": "Un esempio per UniPG",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lorenzo Maiorfi",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "2.18.0",
+    "serialport": "6.2.0",
+    "xbee-api": "0.6.0"
+  }
+}
