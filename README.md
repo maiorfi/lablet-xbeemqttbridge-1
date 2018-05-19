@@ -8,7 +8,8 @@ Per abilitare la seriale /dev/ttyAMA0 sul RPi (UART0; TX=GPIO14,PIN 8 e RX=GPIO1
 # Enable uart
 enable_uart=1
 
-# disables the Bluetooth device and restores UART0/ttyAMA0 to GPIOs 14 and 15 (also needs "sudo systemctl disable hciuart")
+# disables the Bluetooth device and restores UART0/ttyAMA0 to GPIOs 14 and 15
 dtoverlay=pi3-disable-bt
 ```
++ disabilitare il servizio hciuart (utilizzato per pilotare il controller bluetooth) con "sudo systemctl disable hciuart"
 + Effettuare il reboot (sudo reboot)
