@@ -5,13 +5,13 @@ var mqtt = require('mqtt');
 
 var C = xbee_api.constants;
 
-var portaSeriale = new SerialPort('COM15', {
+var portaSeriale = new SerialPort('/dev/ttyAMA0', {
   baudRate: 115200
 });
 
 var clientMqtt = mqtt.connect({
   protocol: 'mqtt',
-  host: 'localhost',
+  host: 'ws.mqtt.it',
   port: 1883
 });
 

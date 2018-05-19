@@ -1,7 +1,7 @@
 {
   "name": "xbee_mqtt_bridge",
   "version": "1.0.0",
-  "description": "Un esempio per UniPG",
+  "description": "Un esempio di bridge XBee (API) / MQTT",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
