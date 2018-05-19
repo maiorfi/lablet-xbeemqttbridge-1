@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+  <loop>true</loop>
+  <repeat_times>1</repeat_times>
+  <repeat_period>1000</repeat_period>
+  <frames_list>
+    <frame name="invio_campione_mock (RBB)">
+      <payload>7E002A10010000000000000000FFFE000049443D5242422C52483D2035332E32312C54656D703D2032332E31351D</payload>
+    </frame>
+    <frame name="invio_campione_mock (RCC)">
+      <payload>7E002A10010000000000000000FFFE000049443D5243432C52483D2035332E32312C54656D703D2032362E313518</payload>
+    </frame>
+    <frame name="invio_campione_mock (RBB) - 2">
+      <payload>7E002A10010000000000000000FFFE000049443D5242422C52483D2036352E32312C54656D703D2031392E313515</payload>
+    </frame>
+    <frame name="invio_campione_mock (RCC) - 2">
+      <payload>7E002A10010000000000000000FFFE000049443D5243432C52483D2031362E32312C54656D703D2031352E31351B</payload>
+    </frame>
+  </frames_list>
+</data>
